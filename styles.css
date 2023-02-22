@@ -1,0 +1,49 @@
+/* Simplest reset I can use */
+*, *:before, *:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} 
+
+/* for use working out kinks in layout */
+/* * { border: 1px solid pink } */
+
+/* set up basic element level styling */
+header {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+
+.nav-logo {
+  height: 100%;
+}
+
+.menu-items {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.menu-items > li {
+  list-style: none;
+}
+
+.copy {
+  margin: 3rem;
+}
+
+footer {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
